@@ -1,7 +1,6 @@
 const naturalNumber = document.getElementById("naturalInput");
 const convertB = document.getElementById("convertToBinary");
 const outputB = document.getElementById("binaryOutput");
-// function to convert decimal to binary
 const decimalToBinary = (number) => {
   let answer = "";
   let divident = number;
@@ -15,7 +14,6 @@ const decimalToBinary = (number) => {
   answer = divident + answer;
   return answer;
 };
-// addEventListener
 
 convertB.addEventListener("click", () => {
   let userInput = naturalNumber.value;
