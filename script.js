@@ -4,7 +4,7 @@ const outputB = document.getElementById("binaryOutput");
 const decimalToBinary = (number) => {
   let answer = "";
   let divident = number;
-
+  // running while loop
   while (divident > 1) {
     quotient = Math.floor(divident / 2);
     remainder = divident % 2;
