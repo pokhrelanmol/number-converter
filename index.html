@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decimal To Binary converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <!-- Natural to Binary convertor -->
+
+      <div class="NtoB">
+        <h2>Natural to Binary</h2>
+        <input type="text" id="naturalInput" placeholder="natural number" />
+        <button id="convertToBinary">Convert</button>
+        <div id="binaryOutput"></div>
+      </div>
+
+      <div class="bToN">
+        <h2>Binary to Natural</h2>
+        <input type="text" id="binaryInput" placeholder="binary number" />
+        <button id="convertToNatural">Convert</button>
+        <div id="naturalOutput"></div>
+      </div>
+
+      <div class="numberConvertor">
+        <h2 class="heading">Number Converter</h2>
+
+        <select name="Number" id="numberOption">
+          <option value="sU">select unit</option>
+          <option value="nToB">Natural To Binary</option>
+          <option value="bToN">Binary To Natural</option>
+          <input type="text" id="inputField" />
+        </select>
+        <button id="convert">convert</button>
+        <div id="outputDiv"></div>
+      </div>
+    </main>
+    <style></style>
+
+    <script src="script.js"></script>
+  </body>
+</html>
