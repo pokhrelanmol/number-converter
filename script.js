@@ -16,7 +16,8 @@ const decimalToBinary = (number) => {
   answer = divident + answer;
   return answer;
 };
-// checking condition
+
+// checking condition for user input
 
 convertB.addEventListener("click", () => {
   let userInput = naturalNumber.value;
